@@ -9,7 +9,7 @@ pipeline {
     stage('Checkout') {
       steps {
         sh 'echo passed'
-        //git branch: 'main', url: 'https://github.com/mtosin123/argocd-maven.git'
+        //git branch: 'master', url: 'https://github.com/mtosin123/argocd-maven.git'
       }
     }
     stage('Build and Test') {
